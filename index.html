@@ -10,7 +10,9 @@
     <meta name='mobile-web-app-capable' content='yes' />
     <meta name='theme-color' content='#000000' />
     <link rel='shortcut icon' href='calc-icon.png' />
-
+<button onclick="goFullscreen()">Toggle Fullscreen</button>
+<div id="myElement">
+    
     <style>
         body, html {
             margin: 0;
@@ -60,9 +62,10 @@
     </style>
     <script type='text/javascript'>
         window.addEventListener('DOMContentLoaded', function () {
-            document.body.addEventListener('touchstart', () => navigator.vibrate(2));
+            document.body.addEventListener('touchstart', () => navigator.vibrate(5));
         });
     </script>
+</div>
 </head>
 <body>
     <div class='images-wrapper'>
